@@ -29,7 +29,7 @@
     <section id="categories">
         <h2>Categorías</h2>
         <div class="products">
-            <div class="pic"><img class="photos" src="/assecs/stich1.webp" alt="Foto peluche Stich">
+            <div class="pic"><a href="/galery-page.html"><img class="photos" src="/assecs/stich1.webp" alt="Foto peluche Stich"></a>
                <div class="name"><p>Peluches</p><img class="icon" src="/assecs/shopping-cart.png" alt="icono carrito"></div>
             </div>
             <div class="pic"><img class="photos" src="/assecs/taza.jpg" alt="Foto taza Marie">
@@ -55,17 +55,12 @@
 
     <div class="row">
         <label class="required" for="email"> Suscribirse a la newletter:</label><br />
-        <input id="email" class="input" name="email" type="text" value="" size="30"
-            placeholder="email@hotmail.com" /><br />
-        <span id="email_validation" class="error_message"></span>
-    </div>
-    <div>
-        <input id="submit_button" type="submit" value="Enviar" />
-        </form>
+            <input type="text" name="correo" id="correo" placeholder="email@hotmail.com">
+            <input type="submit" value="suscripcion" onClick="pruebaemail(correo.value);">         
     </div>
     <footer>
         <p>&#169Copyright2022 Animation Records</p>
     </footer>
-    
+   <script src="/app.js"></script>
 </body>
 </html>
