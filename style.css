@@ -60,8 +60,8 @@ h2 {
 }
 
 .photos {
-    width: 200px;
-    height: 200px;
+    width: 70%;
+    height: 70%;
     border-radius: 10%;
     border: 3px solid #ADD8E6;
 
@@ -69,17 +69,21 @@ h2 {
 
 .name {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 
 .row {
 
     background-color: lightblue;
-    height: 50px;
-    width: 300px;
+    height: 10%;
+    width: 30%;
     margin-top: 80px;
-    margin-left: 600px;
+    margin-left: 400px;
+
+}
+.buton{
+    width:80%;
 
 }
 
