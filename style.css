@@ -65,7 +65,7 @@ h2 {
     width: 200px;
     height: 200px;
     border-radius: 10%;
-    border: 3px solid #ADD8E6;
+    border: 3px solid lightblue;
 
 }
 
@@ -77,9 +77,9 @@ h2 {
 
 .row {
 
-    background-color: lightblue;
-    height: 50px;
-    width: 300px;
+    background-color:lightblue;
+    height: 450px;
+    width: 50px;
     margin-top: 80px;
     margin-left: 600px;
 
